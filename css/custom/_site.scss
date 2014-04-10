@@ -1,0 +1,73 @@
+.home-heading {
+	color: $brand-primary;
+	margin-top: 25px;
+}
+
+
+.home {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 15px;
+	color: #fff;
+}
+
+
+.home h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.alpha70 {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.7);
+}
+
+
+#journal {
+	margin-top: 30px;
+}
+
+#about {
+	margin-top: 10px;
+}
+
+#work {
+
+	margin-bottom: 20px;
+}
+
+#contact {
+	margin-top: 10px;
+}
+
+#contact h3 {
+
+}
+
+.social {
+	margin-top: 25px;
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.social ul {
+	width: 300px;
+	margin:0;
+	padding:0;
+}
+
+.social ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+
+.disclaimer {
+	font-size: 12px;
+	
+}

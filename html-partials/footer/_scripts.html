@@ -1,0 +1,13 @@
+<!-- Load libraries -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<!-- @javascript bootstrap.min -->
+
+<script type="text/javascript">
+	$('a').click(function() {
+    var elementClicked = $(this).attr("href");
+    var destination = $(elementClicked).offset().top;
+    $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-15}, 500 );
+    return false;
+});
+
+</script>
