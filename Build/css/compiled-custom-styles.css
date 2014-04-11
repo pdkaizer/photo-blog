@@ -53,6 +53,9 @@ Change the name of this final compiled stylesheet to your liking
 .disclaimer {
   font-size: 12px; }
 
+.photo-row {
+  margin-top: 20px; }
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html,
